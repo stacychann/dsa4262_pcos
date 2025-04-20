@@ -10,7 +10,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 ### Data Preprocessing:
 - Handled missing and incorrectly typed values
 - Removed outliers and non-informative columns
-- Discretized continuous features using clinically meaningful bins
+- Discretised continuous features using clinically meaningful bins
 - Scaled numerical variables and applied one-hot encoding to categorical variables
 
 ---
@@ -28,7 +28,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 ---
 
 ## 🔍 Key Contributions
-- Proposed a discretization approach for clinical variables to align with medical standards
+- Proposed a discretisation approach for clinical variables to align with medical standards
 - Enhanced TabTransformer architecture to jointly process continuous and categorical features
 - Demonstrated that deep learning models, when properly adapted, can handle real-world structured medical data effectively
 
