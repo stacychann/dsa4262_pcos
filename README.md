@@ -33,12 +33,12 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 - Demonstrated that deep learning models, when properly adapted, can handle real-world structured medical data effectively
 
 ---
-## 🚀 How to Run
-- Install dependencies: ```pip install -r requirements.txt```
+## 🚀 Install dependencies 
+```pip install -r requirements.txt```
 
 ---
 🤝 Acknowledgements
-This project was developed as part of **NUS DSA4262**. We thank our instructors and collaborators for their feedback and support.
+This project was developed as part of **NUS DSA4262 Sense-making Case Analysis: Health and Medicine**. We thank our professor and TA for their feedback and support.
 
 
 
