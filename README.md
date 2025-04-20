@@ -36,7 +36,6 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 ## 🚀 How to Run
 1. **Clone the repository**
    ```git clone https://github.com/stacychann/dsa4262_pcos.git```
-   ```cd pcos-ml-prediction```
 2. **Create virtual environment**
    ```python -m venv venv```
    ```source venv/bin/activate```
