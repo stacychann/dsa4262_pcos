@@ -16,7 +16,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 ---
 ## 🧪 Models Implemented
 1. **Traditional ML Models**
-   - Logistic Regression
+   - Logistic Regression (LR)
    - Random Forest Classifier (RFC)
    - Support Vector Machine (SVM)
    - XGBoost
