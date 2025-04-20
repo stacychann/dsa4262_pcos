@@ -15,26 +15,32 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 
 ---
 ## 🧪 Models Implemented
-
-- Logistic Regression
-- Random Forest Classifier (RFC)
-- Support Vector Machine (SVM)
-- XGBoost
-- Gaussian Process Classifier (GPC)
-- Multi-Layer Perceptron (MLP)
-- TabTransformer (Deep learning model for tabular data)
-- Novel TabTransformer (Enhanced TabTransformer Architecture)
-
+1. **Traditional ML Models**
+   - Logistic Regression
+   - Random Forest Classifier (RFC)
+   - Support Vector Machine (SVM)
+   - XGBoost
+   - Gaussian Process Classifier (GPC)
+2. **Deep Learning Models**
+   - Multi-Layer Perceptron (MLP)
+   - TabTransformer (Deep learning model for tabular data)
+   - Novel TabTransformer (Enhanced TabTransformer Architecture)
 ---
 
 ## 🔍 Key Contributions
-
 - Proposed a discretization approach for clinical variables to align with medical standards
 - Enhanced TabTransformer architecture to jointly process continuous and categorical features
 - Demonstrated that deep learning models, when properly adapted, can handle real-world structured medical data effectively
 
 ---
-## 🚀 Install dependencies
+## 🚀 How to Run
+1. **Clone the repository**
+   ```git clone https://github.com/your-username/pcos-ml-prediction.git```
+   ```cd pcos-ml-prediction```
+2. **Create virtual environment**
+   ```python -m venv venv```
+   ```source venv/bin/activate```
+3. **Install dependencies**
 ```pip install -r requirements.txt```
 
 ---
