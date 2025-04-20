@@ -7,9 +7,9 @@ Our project investigates traditional ML models as well as deep learning architec
 ## 📊 Dataset
 We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggle](https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos). The dataset includes clinical, lifestyle, and hormonal features.
 
-### Data Preprocessing Highlights:
+### Data Preprocessing:
 - Handled missing and incorrectly typed values
-- Removed outliers
+- Removed outliers and non-informative columns
 - Discretized continuous features using clinically meaningful bins
 - Scaled numerical variables and applied one-hot encoding to categorical variables
 
@@ -19,6 +19,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 - Logistic Regression
 - Random Forest Classifier (RFC)
 - Support Vector Machine (SVM)
+- XGBoost
 - Gaussian Process Classifier (GPC)
 - Multi-Layer Perceptron (MLP)
 - TabTransformer (Deep learning model for tabular data)
@@ -33,12 +34,12 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 - Demonstrated that deep learning models, when properly adapted, can handle real-world structured medical data effectively
 
 ---
-## 🚀 How to Run
-- Install dependencies: ```pip install -r requirements.txt```
+## 🚀 Install dependencies
+```pip install -r requirements.txt```
 
 ---
 🤝 Acknowledgements
-This project was developed as part of **NUS DSA4262**. We thank our instructors and collaborators for their feedback and support.
+- This project was developed as part of **NUS DSA4262 Sense-making Case Analysis: Health and Medicine**. We thank our professor and TA for their feedback and support.
 
 
 
