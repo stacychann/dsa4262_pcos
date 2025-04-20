@@ -7,38 +7,44 @@ Our project investigates traditional ML models as well as deep learning architec
 ## 📊 Dataset
 We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggle](https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos). The dataset includes clinical, lifestyle, and hormonal features.
 
-### Data Preprocessing Highlights:
+### Data Preprocessing:
 - Handled missing and incorrectly typed values
-- Removed outliers
-- Discretized continuous features using clinically meaningful bins
+- Removed outliers and non-informative columns
+- Discretised continuous features using clinically meaningful bins
 - Scaled numerical variables and applied one-hot encoding to categorical variables
 
 ---
 ## 🧪 Models Implemented
-
-- Logistic Regression
-- Random Forest
-- Support Vector Machine (SVM)
-- Gaussian Process Classifier
-- Multi-Layer Perceptron (MLP)
-- TabTransformer (Deep learning model for tabular data)
-- Novel TabTransformer (Enhanced TabTransformer Architecture)
-
+1. **Traditional ML Models**
+   - Logistic Regression
+   - Random Forest Classifier (RFC)
+   - Support Vector Machine (SVM)
+   - XGBoost
+   - Gaussian Process Classifier (GPC)
+2. **Deep Learning Models**
+   - Multi-Layer Perceptron (MLP)
+   - TabTransformer (Deep learning model for tabular data)
+   - Novel TabTransformer (Enhanced TabTransformer Architecture)
 ---
 
 ## 🔍 Key Contributions
-
-- Proposed a discretization approach for clinical variables to align with medical standards
+- Proposed a discretisation approach for clinical variables to align with medical standards
 - Enhanced TabTransformer architecture to jointly process continuous and categorical features
 - Demonstrated that deep learning models, when properly adapted, can handle real-world structured medical data effectively
 
 ---
 ## 🚀 How to Run
-- Install dependencies: ```pip install -r requirements.txt```
+1. **Clone the repository**
+   ```git clone https://github.com/stacychann/dsa4262_pcos.git```
+2. **Create virtual environment**
+   ```python -m venv venv```
+   ```source venv/bin/activate```
+3. **Install dependencies**
+```pip install -r requirements.txt```
 
 ---
 🤝 Acknowledgements
-This project was developed as part of **NUS DSA4262**. We thank our instructors and collaborators for their feedback and support.
+- This project was developed as part of **NUS DSA4262 Sense-making Case Analysis: Health and Medicine**. We thank our professor and TA for their feedback and support.
 
 
 
