@@ -9,7 +9,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 
 ### Data Preprocessing Highlights:
 - Handled missing and incorrectly typed values
-- Removed outliers
+- Removed outliers and non-informative columns
 - Discretized continuous features using clinically meaningful bins
 - Scaled numerical variables and applied one-hot encoding to categorical variables
 
@@ -19,6 +19,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 - Logistic Regression
 - Random Forest
 - Support Vector Machine (SVM)
+- XGBoost
 - Gaussian Process Classifier
 - Multi-Layer Perceptron (MLP)
 - TabTransformer (Deep learning model for tabular data)
@@ -38,7 +39,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 
 ---
 🤝 Acknowledgements
-This project was developed as part of **NUS DSA4262 Sense-making Case Analysis: Health and Medicine**. We thank our professor and TA for their feedback and support.
+- This project was developed as part of **NUS DSA4262 Sense-making Case Analysis: Health and Medicine**. We thank our professor and TA for their feedback and support.
 
 
 
