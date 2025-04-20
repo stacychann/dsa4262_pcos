@@ -17,9 +17,9 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 ## 🧪 Models Implemented
 
 - Logistic Regression
-- Random Forest
+- Random Forest Classifier (RFC)
 - Support Vector Machine (SVM)
-- Gaussian Process Classifier
+- Gaussian Process Classifier (GPC)
 - Multi-Layer Perceptron (MLP)
 - TabTransformer (Deep learning model for tabular data)
 - Novel TabTransformer (Enhanced TabTransformer Architecture)
