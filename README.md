@@ -18,6 +18,7 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 
 - Logistic Regression
 - Random Forest
+- Support Vector Machine (SVM)
 - Gaussian Process Classifier
 - Multi-Layer Perceptron (MLP)
 - TabTransformer (Deep learning model for tabular data)
@@ -33,12 +34,11 @@ We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggl
 
 ---
 ## 🚀 How to Run
-- Install dependencies
- ```pip install -r requirements.txt```
+- Install dependencies: ```pip install -r requirements.txt```
 
 ---
 🤝 Acknowledgements
-This project was developed as part of [NUS DSA4262]. We thank our instructors and collaborators for their feedback and support.
+This project was developed as part of **NUS DSA4262**. We thank our instructors and collaborators for their feedback and support.
 
 
 
