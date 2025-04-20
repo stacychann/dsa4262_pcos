@@ -7,7 +7,7 @@ Our project investigates traditional ML models as well as deep learning architec
 ## 📊 Dataset
 We used a cleaned and feature-engineered version of the [PCOS dataset from Kaggle](https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos). The dataset includes clinical, lifestyle, and hormonal features.
 
-### Data Preprocessing Highlights:
+### Data Preprocessing:
 - Handled missing and incorrectly typed values
 - Removed outliers and non-informative columns
 - Discretized continuous features using clinically meaningful bins
